@@ -20,5 +20,3 @@ jobs:
     - name: Install dependencies
       run: pip install -r web_app/requirements.txt
 
-    - name: Run Flask App
-      run: python web_app/app.py
